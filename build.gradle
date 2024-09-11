@@ -1,5 +1,12 @@
 plugins {
 	id 'java'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+	id 'war'
+>>>>>>> origin/master
+>>>>>>> de4d3cc970f64445d4e320ebf4b6d3f175159274
 	id 'org.springframework.boot' version '3.3.3'
 	id 'io.spring.dependency-management' version '1.1.6'
 }
@@ -24,10 +31,32 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> de4d3cc970f64445d4e320ebf4b6d3f175159274
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+<<<<<<< HEAD
+=======
+=======
+
+
+//JSP 추가 시작
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
+	implementation 'jakarta.servlet:jakarta.servlet-api' //스프링부트 3.0 이상
+	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api' //스프링부트
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl' //스프링부트 3.0 이상
+//JSP 추가 끝
+
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+>>>>>>> origin/master
+>>>>>>> de4d3cc970f64445d4e320ebf4b6d3f175159274
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 rootProject.name = 'item-service'
+=======
+<<<<<<< HEAD
+rootProject.name = 'springmvc'
+=======
+rootProject.name = 'servlet'
+>>>>>>> origin/master
+>>>>>>> de4d3cc970f64445d4e320ebf4b6d3f175159274
